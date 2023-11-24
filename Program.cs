@@ -106,14 +106,14 @@ namespace BasicCSharpAssignment
 
             if (age < 18)
                 Console.WriteLine("You are a minor.");
-            else if (age >= 18 && age <= 65)
+            else if (age >= 18 && age <= 60)
                 Console.WriteLine("You are an adult.");
             else
-                Console.WriteLine("You are a senior.");
+                Console.WriteLine("You are a senior citizen.");
 
             // Extension Method Example
             Console.WriteLine("\nExtension Method Example");
-            int myNumber = 5;
+            int myNumber = 7;
             int squaredNumber = myNumber.Square();
             Console.WriteLine($"Square of {myNumber}: {squaredNumber}");
 
